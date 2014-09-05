@@ -103,6 +103,7 @@
                     <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
                     <connections>
                         <outlet property="slider" destination="1lK-g7-m13" id="kRr-ma-4m3"/>
+                        <outlet property="targetLabel" destination="vcb-Re-ejh" id="wSq-Ck-SGR"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
