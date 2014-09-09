@@ -35,8 +35,14 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (IBAction)close {
+- (IBAction)close
+{
     [self.presentingViewController dismissViewControllerAnimated:YES completion:nil];
+}
+
+- (BOOL)prefersStatusBarHidden
+{
+    return YES;
 }
 
 /*
