@@ -22,6 +22,7 @@
 		51F959C319B9A835006B5F17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51F959A219B9A835006B5F17 /* UIKit.framework */; };
 		51F959CB19B9A835006B5F17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51F959C919B9A835006B5F17 /* InfoPlist.strings */; };
 		51F959CD19B9A835006B5F17 /* BullsEyeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F959CC19B9A835006B5F17 /* BullsEyeTests.m */; };
+		51F959D819BD9168006B5F17 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F959D719BD9167006B5F17 /* AboutViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,8 @@
 		51F959C819B9A835006B5F17 /* BullsEyeTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BullsEyeTests-Info.plist"; sourceTree = "<group>"; };
 		51F959CA19B9A835006B5F17 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		51F959CC19B9A835006B5F17 /* BullsEyeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullsEyeTests.m; sourceTree = "<group>"; };
+		51F959D619BD9167006B5F17 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
+		51F959D719BD9167006B5F17 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +123,8 @@
 				51F959B319B9A835006B5F17 /* Main_iPad.storyboard */,
 				51F959B619B9A835006B5F17 /* KFViewController.h */,
 				51F959B719B9A835006B5F17 /* KFViewController.m */,
+				51F959D619BD9167006B5F17 /* AboutViewController.h */,
+				51F959D719BD9167006B5F17 /* AboutViewController.m */,
 				51F959B919B9A835006B5F17 /* Images.xcassets */,
 				51F959A519B9A835006B5F17 /* Supporting Files */,
 			);
@@ -256,6 +261,7 @@
 			files = (
 				51F959B819B9A835006B5F17 /* KFViewController.m in Sources */,
 				51F959AB19B9A835006B5F17 /* main.m in Sources */,
+				51F959D819BD9168006B5F17 /* AboutViewController.m in Sources */,
 				51F959AF19B9A835006B5F17 /* KFAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
