@@ -23,6 +23,7 @@
 		51F959CB19B9A835006B5F17 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 51F959C919B9A835006B5F17 /* InfoPlist.strings */; };
 		51F959CD19B9A835006B5F17 /* BullsEyeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F959CC19B9A835006B5F17 /* BullsEyeTests.m */; };
 		51F959D819BD9168006B5F17 /* AboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 51F959D719BD9167006B5F17 /* AboutViewController.m */; };
+		51F959DC19BED0C5006B5F17 /* BullsEye.html in Resources */ = {isa = PBXBuildFile; fileRef = 51F959DB19BED0C5006B5F17 /* BullsEye.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		51F959CC19B9A835006B5F17 /* BullsEyeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BullsEyeTests.m; sourceTree = "<group>"; };
 		51F959D619BD9167006B5F17 /* AboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AboutViewController.h; sourceTree = "<group>"; };
 		51F959D719BD9167006B5F17 /* AboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AboutViewController.m; sourceTree = "<group>"; };
+		51F959DB19BED0C5006B5F17 /* BullsEye.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = BullsEye.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +119,7 @@
 		51F959A419B9A835006B5F17 /* BullsEye */ = {
 			isa = PBXGroup;
 			children = (
+				51F959DB19BED0C5006B5F17 /* BullsEye.html */,
 				51F959AD19B9A835006B5F17 /* KFAppDelegate.h */,
 				51F959AE19B9A835006B5F17 /* KFAppDelegate.m */,
 				51F959B019B9A835006B5F17 /* Main_iPhone.storyboard */,
@@ -241,6 +244,7 @@
 				51F959BA19B9A835006B5F17 /* Images.xcassets in Resources */,
 				51F959B219B9A835006B5F17 /* Main_iPhone.storyboard in Resources */,
 				51F959A919B9A835006B5F17 /* InfoPlist.strings in Resources */,
+				51F959DC19BED0C5006B5F17 /* BullsEye.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
